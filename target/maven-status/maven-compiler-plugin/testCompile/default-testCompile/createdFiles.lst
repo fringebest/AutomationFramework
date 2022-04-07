@@ -1,0 +1,5 @@
+pages\GoogleSearchPageObjects.class
+test\GoogleSearchTest.class
+test\GoogleSearchPageTest.class
+test\Test1_GoogleSearch.class
+test\TestNG.class
