@@ -13,7 +13,7 @@ public class TestNGMultiBrowserDemo {
 
     @Parameters("browserName")
     @BeforeTest
-    public void setUp(String browserName) {
+    public void setUp(@Optional String browserName) {
         System.out.println("Browser name is: " + browserName);
         if (browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", projectPath + "/drivers/chromedriver_win32/chromedriver.exe");
