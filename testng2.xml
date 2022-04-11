@@ -1,0 +1,9 @@
+<suite name="Suite1">
+    <test thread-count="5" name="Suite2" parallel="tests">
+        <parameter>name = "browserName" value="chrome"</parameter>
+        <classes>
+            <class name ="demo.TestNGMultiBrowserDemo">
+            </class>
+        </classes>
+    </test>
+</suite>
