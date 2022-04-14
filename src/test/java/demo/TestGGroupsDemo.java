@@ -23,4 +23,6 @@ public class TestGGroupsDemo {
     public void test4(){
         System.out.println("This is test 4");
     }
+
+    public void test5(){System.out.println("This is test 5");}
 }
